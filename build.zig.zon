@@ -17,8 +17,8 @@
             .hash = "sdl-1.0.5+3.4.18-i4QD0eENqgB-RtDRu88zdUdtB6mSq5xdrs-nS9peVA3d",
         },
         .SDL_ttf = .{
-            .url = "git+https://github.com/libsdl-org/SDL_ttf#release-3.2.2",
-            .hash = "N-V-__8AAF2JgAA_Y5Qzm3b226N8y7ivM-qFVpCo9NkbfO8Y",
+            .url = "git+https://github.com/libsdl-org/SDL_ttf#e7cf7ceeb41fbb59f67f27af6aa99401cc9eb888",
+            .hash = "N-V-__8AAK6WhAC4Af2ZvWszUhyzx3QVNZ8bUFRxwP4jO7db",
         },
     },
     .paths = .{
