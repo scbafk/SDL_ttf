@@ -19,7 +19,7 @@ pub fn build(b: *std.Build) void {
 
     const lib = b.addLibrary(.{
         .name = "SDL3_ttf",
-        .version = .{ .major = 3, .minor = 2, .patch = 2 },
+        .version = .{ .major = 3, .minor = 3, .patch = 0 },
         .linkage = linkage,
         .root_module = mod,
     });
@@ -58,6 +58,7 @@ pub fn build(b: *std.Build) void {
 }
 
 const srcs: []const []const u8 = &.{
+    "SDL_gl_textengine.c",
     "SDL_gpu_textengine.c",
     "SDL_hashtable.c",
     "SDL_hashtable_ttf.c",
